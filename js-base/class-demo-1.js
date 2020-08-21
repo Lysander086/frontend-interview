@@ -1,21 +1,23 @@
 // 类
 class Student {
-    constructor(name, number) {
-        this.name = name
-        this.number = number
-        // this.gender = 'male'
-    }
-    sayHi() {
-        console.log(
-            `姓名 ${this.name} ，学号 ${this.number}`
-        )
-        // console.log(
-        //     '姓名 ' + this.name + ' ，学号 ' + this.number
-        // )
-    }
-    // study() {
+  constructor(name, number) {
+    this.name = name
+    this.number = number
+    // this.gender = 'male'
+  }
 
-    // }
+  sayHi() {
+    console.log(
+        `姓名 ${this.name} ，学号 ${this.number}`
+    )
+    // console.log(
+    //     '姓名 ' + this.name + ' ，学号 ' + this.number
+    // )
+  }
+
+  // study() {
+
+  // }
 }
 
 // 通过类 new 对象/实例
