@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>bfc</title>
+  <style>
+  .same-bfc {
+    width: 100px;
+    height: 100px;
+    background: lightblue;
+    margin: 100px;
+  }
+
+  .container {
+    overflow: hidden;
+  }
+
+  #left {
+    border: 1px solid #ccc;
+    float: left;
+    width: 50%;
+    margin: -1px;
+  }
+
+  #right {
+    border: 1px solid #FF0000;
+    float: right;
+    width: 50%;
+    box-sizing: border-box;
+    margin: -1px;
+  }
+
+  p, .with-bfc {
+    width: 100px;
+    height: 100px;
+    background: lightblue;
+    margin: 100px;
+    box-sizing: border-box;
+
+  }
+
+  </style>
+</head>
+
+<body>
+<!--同一个 BFC 下外边距会发生折叠-->
+<div id="left">
+  <div class="same-bfc"></div>
+  <div class="same-bfc"></div>
+</div>
+<!-- same bfc end -->
+
+<!-- different bfc-->
+<div id="right">
+  <div class="container">
+    <div class="with-bfc"></div>
+  </div>
+  <div class="container">
+    <div class="with-bfc"></div>
+  </div>
+</div>
+
+</body>
+</html>
