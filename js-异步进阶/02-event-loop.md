@@ -22,7 +22,7 @@ DOM 事件，也用 event loop
 <script>
 console.log('Hi')
 
-$('#btn1').click(function (e) {
+$('#btn1').click(6function (e) {
     console.log('button clicked')
 })
 
