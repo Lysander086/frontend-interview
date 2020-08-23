@@ -12,17 +12,19 @@ const p1 = document.getElementById('p1')
 div2.appendChild(p1)
 
 // 获取父元素
-console.log( p1.parentNode )
+console.log('parentNode', p1.parentNode)
 
 // 获取子元素列表
 const div1ChildNodes = div1.childNodes
-console.log( div1.childNodes )
+console.log(div1.childNodes)
 const div1ChildNodesP = Array.prototype.slice.call(div1.childNodes).filter(child => {
-    if (child.nodeType === 1) {
-        return true
-    }
-    return false
+  if (child.nodeType === 1) {
+    return true
+  } else {
+
+  }
+  return false
 })
 console.log('div1ChildNodesP', div1ChildNodesP)
 
-div1.removeChild( div1ChildNodesP[0] )
+div1.removeChild(div1ChildNodesP[0]) // dom结构操作的演示
