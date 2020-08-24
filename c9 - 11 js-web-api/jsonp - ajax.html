@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>jsonp 演示</title>
+  <!-- jquery dependency -->
+  <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+<body>
+<p>一段文字 1</p>
+
+<script>
+$.ajax({
+  url: 'http://localhost:8002/jsonp.js',
+  dataType: 'jsonp',
+  jsonCallback: 'callback', // jsonp的callback的名字: 'callback'
+  success: function (data) {
+    console.log(data)
+  }
+})
+
+</script>
+<!--        <script src="http://localhost:8002/jsonp.js"></script>-->
+<!--        <script src="http://localhost:8002/jsonp.js?username=xxx&callback=abc"></script>-->
+</body>
+</html>
