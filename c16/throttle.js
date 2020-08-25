@@ -14,23 +14,25 @@ const div1 = document.getElementById('div1')
 
 // 节流
 function throttle(fn, delay = 100) {
-    let timer = null
+  let timer = null
 
-    return function () {
-        if (timer) {
-            return
-        }
-        timer = setTimeout(() => {
-            fn.apply(this, arguments)
-            timer = null
-        }, delay)
+  return function () {
+    if (timer) {
+      return // timer在一次开启后 会随着drag的发生一直存在
     }
+    timer = setTimeout(() => {
+      // debugger
+      fn.apply(this, arguments)
+      timer = null
+    }, delay)
+  }
 }
 
 div1.addEventListener('drag', throttle(function (e) {
-    console.log(e.offsetX, e.offsetY)
+  // debugger
+  console.log(e.offsetX, e.offsetY)
 }))
 
-div1.addEventListener('drag', function(event) {
-
-})
+// div1.addEventListener('drag', function (event) {
+//
+// })
