@@ -4,9 +4,7 @@ const input1 = document.getElementById('input1')
 function debounce(fn, delay = 500) {
   // timer 是闭包中的
   let timer = null
-  // let myVar = 'apple'
   return function () {
-    // console.log(myVar)
     if (timer) {
       clearTimeout(timer)
     }

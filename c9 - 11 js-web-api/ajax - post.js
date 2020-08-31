@@ -21,7 +21,7 @@ xhr.send(JSON.stringify(postData))
 
 // 使用promise封装
 function ajax(url, mappingMethod = 'GET') {
-  return new Promise((resolve, reject) => {
+  return new Promise((resolve , reject) => {
     const xhr = new XMLHttpRequest()
     xhr.open('POST', '/login', true)
     xhr.onreadystatechange = function () {

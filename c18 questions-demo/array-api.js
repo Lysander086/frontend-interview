@@ -1,10 +1,10 @@
-// const arr = [10, 20, 30, 40]
+const arr = [10, 20, 30, 40]
 
 // // pop
 // const popRes = arr.pop()
 // console.log(popRes, arr)
 
-// // shift
+// shift
 // const shiftRes = arr.shift()
 // console.log(shiftRes, arr)
 
@@ -15,7 +15,6 @@
 // // unshift
 // const unshiftRes = arr.unshift(5) // 返回 length
 // console.log(unshiftRes, arr)
-
 
 
 // // 纯函数：1. 不改变源数组（没有副作用）；2. 返回一个数组
@@ -50,10 +49,12 @@
 // // const spliceRes2 = arr.splice(1, 0, 'a', 'b', 'c')
 // console.log(spliceRes, arr)
 
-const res = [10, 20, 30].map(parseInt)
-console.log(res)
-
-// 拆解
-[10, 20, 30].map((num, index) => {
-    return parseInt(num, index)
+const res = [10, 20, 30].map((num, index) => {
+  return parseInt(num, 16)
 })
+console.log(res)
+//
+// // 拆解
+// [10, 20, 30].map((num, index) => {
+//     return parseInt(num, index)
+// })
