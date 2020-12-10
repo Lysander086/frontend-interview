@@ -1,5 +1,4 @@
 const arr = [10, 20, 30, 40]
-
 // // pop
 // const popRes = arr.pop()
 // console.log(popRes, arr)

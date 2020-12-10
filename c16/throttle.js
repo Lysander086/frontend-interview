@@ -12,7 +12,7 @@ const div1 = document.getElementById('div1')
 //     }, 100)
 // })
 
-// 节流
+// 节流: 过一段时间就执行请求
 function throttle(fn, delay = 100) {
   let timer = null
 

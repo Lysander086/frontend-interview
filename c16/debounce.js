@@ -1,8 +1,8 @@
 const input1 = document.getElementById('input1')
 
-// 防抖
+// 防抖, (例子说明法)只有用户停止输入才进行ajax请求
 function debounce(fn, delay = 500) {
-  // timer 是闭包中的
+  // timer是在闭包中的
   let timer = null
   return function () {
     if (timer) {
