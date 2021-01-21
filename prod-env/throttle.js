@@ -12,8 +12,8 @@ const div1 = document.getElementById('div1')
 //     }, 100)
 // })
 
-// 节流
-function throttle(fn, delay = 100) {
+// 节流,  f12打开移动端显示模式
+function throttle(fn, delay = 1000) {
     let timer = null
 
     return function () {
@@ -27,10 +27,6 @@ function throttle(fn, delay = 100) {
     }
 }
 
-div1.addEventListener('drag', throttle(function (e) {
-    console.log(e.offsetX, e.offsetY)
-}))
-
-div1.addEventListener('drag', function(event) {
-
-})
+div1.addEventListener('drag', throttle(function (event) {
+    console.log(event);
+}) )
