@@ -4,45 +4,49 @@
 
 const obj1 = {
   age: 20,
-  name: 'xxx',
+  name: "xxx",
   address: {
-    city: 'beijing'
+    city: "beijing",
   },
-  arr: ['a', 'b', 'c']
-}
+  arr: ["a", "b", "c"],
+};
 
-const obj2 = deepClone(obj1)
-obj2.address.city = 'shanghai'
-obj2.arr[0] = 'a1'
-console.log(obj1.address.city)
-console.log(obj1.arr[0])
+const obj2 = deepClone(obj1);
+obj2.address.city = "shanghai";
+obj2.arr[0] = "a1";
+console.log(obj1.address.city);
+console.log(obj1.arr[0]);
 
 /**
  * 深拷贝
  * @param {Object} obj 要拷贝的对象
  */
 function deepClone(obj = {}) {
-  if (typeof obj !== 'object' || obj == null) {
+
+  // proc 1: judge if object, recurse exit
+  if (typeof obj !== "object" || obj == null) {
     // obj 是 null ，或者不是对象和数组，直接返回
-    return obj // 递归出口, 返回object[key]值
+    return obj; // 递归出口, 返回上个循环中object[key]值
   }
 
   // 初始化返回结果
-  let result
+  let result;
+  // proc2 judge instance
   if (obj instanceof Array) {
-    result = []
+    result = [];
   } else {
-    result = {}
+    result = {};
   }
 
+  // proc 3: recursive call
   for (let key in obj) {
     // 保证 key 不是原型的属性
     if (obj.hasOwnProperty(key)) {
-      // 递归调用！！！
-      result[key] = deepClone(obj[key])
+      // 递归调用
+      result[key] = deepClone(obj[key]);
     }
   }
 
   // 返回结果
-  return result
+  return result;
 }
