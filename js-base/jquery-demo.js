@@ -1,29 +1,29 @@
 class jQuery {
   constructor(selector) {
-    const result = document.querySelectorAll(selector)
-    const length = result.length
+    const result = document.querySelectorAll(selector);
+    const length = result.length;
     for (let i = 0; i < length; i++) {
-      this[i] = result[i]
+      this[i] = result[i];
     }
-    this.length = length
-    this.selector = selector
+    this.length = length;
+    this.selector = selector;
   }
 
   get(index) {
-    return this[index]
+    return this[index];
   }
 
   each(fn) {
     for (let i = 0; i < this.length; i++) {
-      const elem = this[i]
-      fn(elem)
+      const elem = this[i];
+      fn(elem);
     }
   }
 
   on(type, fn) {
-    return this.each(elem => {
-      elem.addEventListener(type, fn, false)
-    })
+    return this.each((elem) => {
+      elem.addEventListener(type, fn, false);
+    });
   }
 
   // 扩展很多 DOM API
@@ -31,23 +31,19 @@ class jQuery {
 
 // 插件
 jQuery.prototype.dialog = function (info) {
-  alert(info)
-}
+  alert(info);
+};
 
 // “造轮子”
 class myJQuery extends jQuery {
   constructor(selector) {
-    super(selector) // 继承父类构造函数
+    super(selector); // 继承父类构造函数
   }
 
   // 扩展自己的方法
-  addClass(className) {
+  addClass(className) {}
 
-  }
-
-  style(data) {
-
-  }
+  style(data) {}
 }
 
 // const $p = new jQuery('p')
