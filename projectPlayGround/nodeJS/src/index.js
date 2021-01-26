@@ -1,4 +1,4 @@
-
+const obj = require('./bindDemo')
 
 function startApp() {
     const express = require('express');
@@ -14,3 +14,6 @@ function startApp() {
 }
 
 startApp();
+
+
+
