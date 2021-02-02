@@ -27,11 +27,10 @@ export default {
       this.$nextTick(()=>{
         // this.$attrs.age = 23
         this.$set( this.$attrs ,'age', 23)
-        console.log(this.$options.name, this.$attrs.age)
-        console.log()
+        // console.log(this.$options.name, this.$attrs.age)
       })
     },200);
-    console.log(this.$options.name, " ", this.$attrs);
+    // console.log(this.$options.name, " ", this.$attrs);
 
   },
 };

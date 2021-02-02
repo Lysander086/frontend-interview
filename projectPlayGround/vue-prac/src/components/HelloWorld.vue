@@ -47,11 +47,11 @@ export default {
       // console.log('event get:', res)
     });
 
-    console.log(this.$attrs)
+    // console.log(this.$attrs)
   },
   beforeDestroy() {
     eb.$off("event", (res) => {
-      console.log("event off:", res);
+      // console.log("event off:", res);
     });
   },
 };

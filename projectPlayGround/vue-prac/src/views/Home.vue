@@ -32,7 +32,7 @@ export default {
   },
   methods: {
     handleEvent(evt) {
-      console.log("handleEvent: ", evt);
+      // console.log("handleEvent: ", evt);
     },
   },
   components: {
@@ -48,7 +48,7 @@ export default {
     setTimeout(() => {
       // this.$children[0].some = 'new some'
       // eb.$emit("event");
-      console.log(this.age)
+      // console.log(this.age)
     }, 1000);
     setTimeout(() => {
       // this.$children[0].some = 'new some'
