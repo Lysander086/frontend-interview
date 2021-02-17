@@ -7,28 +7,30 @@
       :gender="gender"
       :height="height"
       title="程序员成长指北"
-      @inHello="handleEvent" msg="Welcome to Your Vue.js App" />
+      @inHello="handleEvent"
+      msg="Welcome to Your Vue.js App"
+    />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
-import app, { eb } from "@/util/app";
+import HelloWorld from '@/components/HelloWorld.vue';
+import app, { eb } from '@/util/app';
 
 export default {
   mixins: [app],
-  name: "Home",
+  name: 'Home',
   provide: {
-    supplies: "medicine",
+    supplies: 'medicine',
   },
   data() {
     return {
-      name: "zany",
-      age: "18",
-      gender: "女",
-      height: "158"
-    }
+      name: 'zany',
+      age: '18',
+      gender: '女',
+      height: '158',
+    };
   },
   methods: {
     handleEvent(evt) {
@@ -52,7 +54,7 @@ export default {
     }, 1000);
     setTimeout(() => {
       // this.$children[0].some = 'new some'
-      eb.$emit("event");
+      eb.$emit('event');
     }, 200);
   },
 };
