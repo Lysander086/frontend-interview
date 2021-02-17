@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/a_doc" />
+      <excludeFolder url="file://$MODULE_DIR$/projectPlayGround/myrootPrac" />
+      <excludeFolder url="file://$MODULE_DIR$/projectPlayGround/prod-env" />
+      <excludeFolder url="file://$MODULE_DIR$/projectPlayGround/webpack-demo" />
+      <excludeFolder url="file://$MODULE_DIR$/projectPlayGround/webpack_learn-master" />
+      <excludeFolder url="file://$MODULE_DIR$/projectPlayGround/zhihu-webpack-demo" />
+      <excludeFolder url="file://$MODULE_DIR$/projectPlayGround/zhihu-webpack-proj" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

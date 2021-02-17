@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8d25405c-0fdf-46ad-a546-a09a7791b36c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/projectPlayGround/webpack-demo/project.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectPlayGround/vue-prac/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/projectPlayGround/vue-prac/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectPlayGround/webpack_learn-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectPlayGround/webpack_learn-master/base/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectPlayGround/webpack_learn-master/base/configs/webpack.common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectPlayGround/webpack_learn-master/base/configs/webpack.dev.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectPlayGround/webpack_learn-master/base/configs/webpack.prod.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectPlayGround/webpack_learn-master/base/doc/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectPlayGround/webpack_learn-master/base/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectPlayGround/webpack_learn-master/base/postcss.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectPlayGround/webpack_learn-master/base/src/assets/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectPlayGround/webpack_learn-master/base/src/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectPlayGround/webpack_learn-master/base/src/assets/mini.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectPlayGround/webpack_learn-master/base/src/assets/superman.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectPlayGround/webpack_learn-master/base/src/assets/webpack.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectPlayGround/webpack_learn-master/base/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectPlayGround/webpack_learn-master/base/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectPlayGround/webpack_learn-master/base/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectPlayGround/webpack_learn-master/base/src/style.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectPlayGround/webpack_learn-master/base/src/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectPlayGround/webpack_learn-master/base/webpack.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectPlayGround/webpack_learn-master/base/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectPlayGround/webpack_learn-master/confuse/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectPlayGround/webpack_learn-master/confuse/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectPlayGround/webpack_learn-master/confuse/configs/webpack.common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectPlayGround/webpack_learn-master/confuse/configs/webpack.dev.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectPlayGround/webpack_learn-master/confuse/configs/webpack.prod.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectPlayGround/webpack_learn-master/confuse/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectPlayGround/webpack_learn-master/confuse/src/assets/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectPlayGround/webpack_learn-master/confuse/src/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectPlayGround/webpack_learn-master/confuse/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectPlayGround/webpack_learn-master/confuse/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectPlayGround/webpack_learn-master/confuse/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectPlayGround/webpack_learn-master/confuse/src/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectPlayGround/webpack_learn-master/confuse/webpack.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectPlayGround/webpack_learn-master/confuse/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectPlayGround/webpack_learn-master/optimization/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectPlayGround/webpack_learn-master/optimization/configs/webpack.common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectPlayGround/webpack_learn-master/optimization/configs/webpack.dev.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectPlayGround/webpack_learn-master/optimization/configs/webpack.dll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectPlayGround/webpack_learn-master/optimization/configs/webpack.prod.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectPlayGround/webpack_learn-master/optimization/dll/_dll_react.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectPlayGround/webpack_learn-master/optimization/dll/react.manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectPlayGround/webpack_learn-master/optimization/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectPlayGround/webpack_learn-master/optimization/postcss.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectPlayGround/webpack_learn-master/optimization/src/assets/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectPlayGround/webpack_learn-master/optimization/src/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectPlayGround/webpack_learn-master/optimization/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectPlayGround/webpack_learn-master/optimization/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectPlayGround/webpack_learn-master/optimization/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectPlayGround/webpack_learn-master/optimization/src/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectPlayGround/webpack_learn-master/optimization/webpack.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectPlayGround/webpack_learn-master/optimization/yarn.lock" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="frontend-interview" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1gGKpfcTBDKggKD6Yt5H4IItg3r" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="14.15.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/projectPlayGround/vue-prac/vue.config.js" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.NodeInterpreter" value="project" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\inz\AppData\Roaming\npm\node_modules\prettier" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="settings.webpack" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.3.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\inz\Desktop\winDev\myProj\frontend-interview\projectPlayGround" />
+      <recent name="C:\Users\inz\Desktop\winDev\myProj\frontend-interview\c16" />
+      <recent name="C:\Users\inz\Desktop\winDev\myProj\frontend-interview\c9 js-web-api\mPrac" />
+      <recent name="C:\Users\inz\Desktop\winDev\myProj\frontend-interview\css\mypra\bfc" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\inz\Desktop\winDev\myProj\frontend-interview\projectPlayGround\nodeJS\src" />
+      <recent name="C:\Users\inz\Desktop\winDev\myProj\frontend-interview\js-base\myPrac" />
+      <recent name="C:\Users\inz\Desktop\winDev\myProj\frontend-interview\projectPlayGround\nodeJS" />
+      <recent name="C:\Users\inz\Desktop\winDev\myProj\frontend-interview\projectPlayGround" />
+      <recent name="C:\Users\inz\Desktop\winDev\myProj\frontend-interview\projectPlayGround\my-webpack-demo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.ndoe start">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/projectPlayGround/lazyload-demo/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/projectPlayGround/nodeJS/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="es play start" type="js.build_tools.npm" temporary="true">
+      <package-json value="$PROJECT_DIR$/projectPlayGround/esPlay/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="ndoe start" type="js.build_tools.npm" temporary="true">
+      <package-json value="$PROJECT_DIR$/projectPlayGround/nodeJS/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="serve" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/projectPlayGround/vue-prac/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="serve" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="npm.build" />
+      <item itemvalue="npm.dev" />
+      <item itemvalue="npm.es play start" />
+      <item itemvalue="npm.ndoe start" />
+      <item itemvalue="npm.serve" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.ndoe start" />
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.es play start" />
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.serve" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8d25405c-0fdf-46ad-a546-a09a7791b36c" name="Default Changelist" comment="" />
+      <created>1597735673645</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597735673645</updated>
+      <workItem from="1597735676354" duration="16868000" />
+      <workItem from="1597831985131" duration="8836000" />
+      <workItem from="1597847168742" duration="6000" />
+      <workItem from="1597973667324" duration="5420000" />
+      <workItem from="1598003902098" duration="10170000" />
+      <workItem from="1598064841843" duration="1711000" />
+      <workItem from="1598145281360" duration="2767000" />
+      <workItem from="1598149789449" duration="23647000" />
+      <workItem from="1598264079905" duration="34163000" />
+      <workItem from="1598521435147" duration="599000" />
+      <workItem from="1598669072265" duration="234000" />
+      <workItem from="1598712646928" duration="1818000" />
+      <workItem from="1598775480038" duration="1206000" />
+      <workItem from="1598835257661" duration="11570000" />
+      <workItem from="1598880107210" duration="2711000" />
+      <workItem from="1599305012985" duration="587000" />
+      <workItem from="1599816839772" duration="621000" />
+      <workItem from="1611455065616" duration="875000" />
+      <workItem from="1611456637065" duration="4201000" />
+      <workItem from="1611469844872" duration="2988000" />
+      <workItem from="1611472846259" duration="550000" />
+      <workItem from="1611473664166" duration="301000" />
+      <workItem from="1611473975844" duration="12969000" />
+      <workItem from="1611883783809" duration="757000" />
+      <workItem from="1611899392683" duration="796000" />
+      <workItem from="1611905869595" duration="18000" />
+    </task>
+    <task id="LOCAL-00001" summary="structure adjust">
+      <created>1611470570205</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1611470570205</updated>
+    </task>
+    <task id="LOCAL-00002" summary="official doc webpack , run success&#10;- https://webpack.docschina.org/guides/getting-started/">
+      <created>1611471172348</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1611471172348</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="structure adjust" />
+    <MESSAGE value="official doc webpack , run success&#10;- https://webpack.docschina.org/guides/getting-started/&#10;- rezp: &#10;    - 懒加载 https://webpack.docschina.org/guides/lazy-loading/, &#10;    - 代码分离 https://webpack.docschina.org/guides/code-splitting/" />
+    <option name="LAST_COMMIT_MESSAGE" value="official doc webpack , run success&#10;- https://webpack.docschina.org/guides/getting-started/&#10;- rezp: &#10;    - 懒加载 https://webpack.docschina.org/guides/lazy-loading/, &#10;    - 代码分离 https://webpack.docschina.org/guides/code-splitting/" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="362" y="79" key="#Plugins" timestamp="1611473963796">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="362" y="79" key="#Plugins/0.0.1536.834/3840.0.1536.864@0.0.1536.834" timestamp="1611473963796" />
+    <state x="362" y="78" key="#TODO" timestamp="1611470568104">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="362" y="78" key="#TODO/0.0.1536.834/3840.0.1536.864@0.0.1536.834" timestamp="1611470568104" />
+    <state x="225" y="75" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611488121620">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="225" y="75" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834/3840.0.1536.864@0.0.1536.834" timestamp="1611488121620" />
+    <state x="343" y="15" key="CommitChangelistDialog2" timestamp="1611471171709">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="343" y="15" key="CommitChangelistDialog2/0.0.1536.834/3840.0.1536.864@0.0.1536.834" timestamp="1611471171709" />
+    <state x="4390" y="181" key="FileChooserDialogImpl" timestamp="1611888184597">
+      <screen x="3840" y="0" width="1536" height="864" />
+    </state>
+    <state x="550" y="175" key="FileChooserDialogImpl/0.0.1536.834/3840.0.1536.864@0.0.1536.834" timestamp="1611469144423" />
+    <state x="4390" y="181" key="FileChooserDialogImpl/0.0.1536.834/3840.0.1536.864@3840.0.1536.864" timestamp="1611888184597" />
+    <state x="520" y="307" key="GitRewordDialog" timestamp="1611471504909">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="520" y="307" key="GitRewordDialog/0.0.1536.834/3840.0.1536.864@0.0.1536.834" timestamp="1611471504909" />
+    <state width="496" height="706" key="GridCell.Tab.0.bottom" timestamp="1611536963449">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="496" height="706" key="GridCell.Tab.0.bottom/0.0.1536.834/3840.0.1536.864@0.0.1536.834" timestamp="1611536963449" />
+    <state width="496" height="737" key="GridCell.Tab.0.bottom/0.0.1536.834/3840.0.1536.864@3840.0.1536.864" timestamp="1611488291735" />
+    <state width="496" height="706" key="GridCell.Tab.0.center" timestamp="1611536963449">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="496" height="706" key="GridCell.Tab.0.center/0.0.1536.834/3840.0.1536.864@0.0.1536.834" timestamp="1611536963449" />
+    <state width="496" height="737" key="GridCell.Tab.0.center/0.0.1536.834/3840.0.1536.864@3840.0.1536.864" timestamp="1611488291735" />
+    <state width="496" height="706" key="GridCell.Tab.0.left" timestamp="1611536963449">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="496" height="706" key="GridCell.Tab.0.left/0.0.1536.834/3840.0.1536.864@0.0.1536.834" timestamp="1611536963449" />
+    <state width="496" height="737" key="GridCell.Tab.0.left/0.0.1536.834/3840.0.1536.864@3840.0.1536.864" timestamp="1611488291735" />
+    <state width="496" height="706" key="GridCell.Tab.0.right" timestamp="1611536963449">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="496" height="706" key="GridCell.Tab.0.right/0.0.1536.834/3840.0.1536.864@0.0.1536.834" timestamp="1611536963449" />
+    <state width="496" height="737" key="GridCell.Tab.0.right/0.0.1536.834/3840.0.1536.864@3840.0.1536.864" timestamp="1611488291735" />
+    <state x="4121" y="65" key="SettingsEditor" timestamp="1611888187124">
+      <screen x="3840" y="0" width="1536" height="864" />
+    </state>
+    <state x="281" y="63" key="SettingsEditor/0.0.1536.834/3840.0.1536.864@0.0.1536.834" timestamp="1611473956022" />
+    <state x="4121" y="65" key="SettingsEditor/0.0.1536.834/3840.0.1536.864@3840.0.1536.864" timestamp="1611888187124" />
+    <state x="491" y="160" width="540" height="524" key="StructurePopup" timestamp="1611469474424">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="491" y="160" width="540" height="524" key="StructurePopup/0.0.1536.834/3840.0.1536.864@0.0.1536.834" timestamp="1611469474424" />
+    <state x="471" y="173" width="594" height="488" key="find.popup" timestamp="1611899423584">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="471" y="173" width="594" height="488" key="find.popup/0.0.1536.834/3840.0.1536.864@0.0.1536.834" timestamp="1611899423584" />
+    <state x="4311" y="179" width="594" height="506" key="find.popup/0.0.1536.834/3840.0.1536.864@3840.0.1536.864" timestamp="1611888141525" />
+    <state x="426" y="190" key="run.anything.popup" timestamp="1611496465570">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="426" y="190" key="run.anything.popup/0.0.1536.834/3840.0.1536.864@0.0.1536.834" timestamp="1611496465570" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1611496151695">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834/3840.0.1536.864@0.0.1536.834" timestamp="1611496151695" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/c9 - 11 js-web-api/ajax - post.js</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
