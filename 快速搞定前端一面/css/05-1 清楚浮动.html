@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>清除浮动</title>
+
+    <style>
+      .container {
+        width: 300px;
+        border: 1px solid #000;
+        background-color: gray;
+      }
+      
+      /* 清除浮动 */
+      .clearfix{
+        display: table;
+        clear: both;
+        content: '';
+      }
+      
+      .left {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        float: left;
+      }
+      .right {
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+        float: right;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container clearfix">
+      <div class="left"></div>
+      <div class="right"></div>
+    </div>
+  </body>
+</html>

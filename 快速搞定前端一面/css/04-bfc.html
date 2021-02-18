@@ -12,11 +12,12 @@
   }
 
   .left {
-    /* float: left; */
+     float: left;
   }
 
   .bfc {
-    /* overflow: hidden; /* 触发元素 BFC */
+     /* 如果没有使用 */
+     overflow: hidden; /* 触发元素 BFC */
   }
 
   img {
@@ -32,8 +33,8 @@
 
 <body>
 <div class="container bfc">
-  <img src="https://www.imooc.com/static/img/index/logo.png" class="left"/>
-  <p class="bfc">某一段文字……</p>
+  <img src="https://www.imooc.com/static/img/index/logo.png" class="left" alt="" />
+  <p class="" style="overflow: hidden">某一段文字……</p>
 </div>
 </body>
 

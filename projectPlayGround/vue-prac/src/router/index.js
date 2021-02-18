@@ -1,12 +1,19 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
+import Reactive from '../views/Reactive.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
   {
-    path: '/',
+    path: '/reactive',
+    alias: '/',
+    name: 'reactive',
+    component: Reactive
+  },
+  {
+    path: '/Home',
     name: 'Home',
     component: Home
   },
