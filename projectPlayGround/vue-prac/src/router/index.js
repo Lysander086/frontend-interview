@@ -1,13 +1,18 @@
-import Vue from 'vue'
-import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
-import Reactive from '../views/Reactive.vue'
-import TestAsync from '../views/TestAsync'
+import Vue from 'vue';
+import VueRouter from 'vue-router';
+import Home from '../views/Home.vue';
+import Reactive from '../views/Reactive.vue';
+import TestAsync from '../views/TestAsync';
 
-Vue.use(VueRouter)
+Vue.use(VueRouter);
 
 const routes = [
 
+  {
+    path: '/TestVuex',
+    name: 'TestVuex',
+    component: () => import('@/views/TestVuex')
+  },
   {
     path: '/TestAsync',
 
@@ -33,12 +38,12 @@ const routes = [
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
   }
-]
+];
 
 const router = new VueRouter({
   mode: 'history',
   base: process.env.BASE_URL,
   routes
-})
+});
 
-export default router
+export default router;

@@ -82,6 +82,7 @@ export class Store {
 
 
   /**
+   * readCodez
    * @description: commit的定义, [源码位置](https://github.com/vuejs/vuex/blob/665455f8daf8512e7adbf63c2842bc0b1e39efdb/src/store.js#L82)
    *   - [本地源碼位置](/vue源码解读/vuexRead/vuex-dev/src/store.js)
    * @param _type: 表示 mutation 的类型
@@ -471,6 +472,7 @@ function makeLocalGetters (store, namespace) {
 }
 
 /**
+ * readCodez
  * mutations，commit 是怎么实现的: 源码位置  https://github.com/vuejs/vuex/blob/665455f8daf8512e7adbf63c2842bc0b1e39efdb/src/store.js#L417
  * @param {*} store : 当前 Store 实例
  * @param {*} type: 为 mutation 的 key
@@ -479,7 +481,7 @@ function makeLocalGetters (store, namespace) {
  */
 function registerMutation (store, type, handler, local) {
   const entry = store._mutations[type] || (store._mutations[type] = [])
-  entry.push(function wrappedMutationHandler (payload) {
+  entry.push(function wrappedMutationHandler (payload) {wrappedMutationHandler
     handler.call(store, local.state, payload)
   })
 }
