@@ -45,10 +45,16 @@ export default {
     // console.log("home.vue - beforeMount");
   },
   mounted() {
-    let arr1;
-    let arr2 = (arr1 = []);
-    arr2.push('test1')
-    console.log(arr1, arr2);
+    let timer = setTimeout(()=>{
+      console.log('first call');
+      timer = null;
+    },500)
+
+    setTimeout(()=>{
+      console.log(timer);
+    },800)
+
+
   }
 };
 </script>

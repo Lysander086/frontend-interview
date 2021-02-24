@@ -1,7 +1,8 @@
 <template>
   <div>
-    <h1>{{computedCount}}</h1>
-    <h1>{{testVuexAlias}}</h1>
+<!--    <h1>{{computedCount}}</h1>-->
+<!--    <h1>{{testVuexAlias}}</h1>-->
+    <h1>{{count}}</h1>
   </div>
 </template>
 
@@ -21,14 +22,7 @@ export default {
   },
   methods: {},
   computed: {
-    ...mapState({
-      count: state => state.count,
-      testVuexAlias: 'count',
-      computedCount (state){
-        return state.count + this.localCount
-      }
-
-    })
+    ...mapState(['count'])
   }
 };
 </script>
