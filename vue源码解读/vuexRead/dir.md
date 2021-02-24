@@ -13,3 +13,4 @@
 
 - [JS每日一题: 请简述一下vuex实现原理](https://segmentfault.com/a/1190000018251844)
   - info: **写的可以**
+  - readCodez表示我有注释的地方
