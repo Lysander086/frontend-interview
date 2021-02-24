@@ -1,7 +1,8 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
+    <img alt="Vue logo" src="../assets/logo.png"/>
     <HelloWorld
+      @hook:created="'childCreated'"
       :name="name"
       :age="age"
       :gender="gender"
@@ -16,46 +17,38 @@
 <script>
 // @ is an alias to /src
 import HelloWorld from '@/components/HelloWorld.vue';
-import app, { eb } from '@/util/app';
+import appMixin, { eventBus } from '@/util';
 
 export default {
-  mixins: [app],
+  mixins: [appMixin],
   name: 'Home',
   provide: {
-    supplies: 'medicine',
+    supplies: 'medicine'
   },
   data() {
     return {
       name: 'zany',
       age: '18',
       gender: '女',
-      height: '158',
+      height: '158'
     };
   },
   methods: {
     handleEvent(evt) {
       // console.log("handleEvent: ", evt);
-    },
+    }
   },
   components: {
-    HelloWorld,
+    HelloWorld
   },
   beforeMount() {
     // console.log("home.vue - beforeMount");
   },
   mounted() {
-    // console.log(this.$options.name, " - mounted");
-    // console.log(this.$children)
-
-    setTimeout(() => {
-      // this.$children[0].some = 'new some'
-      // eb.$emit("event");
-      // console.log(this.age)
-    }, 1000);
-    setTimeout(() => {
-      // this.$children[0].some = 'new some'
-      eb.$emit('event');
-    }, 200);
-  },
+    let arr1;
+    let arr2 = (arr1 = []);
+    arr2.push('test1')
+    console.log(arr1, arr2);
+  }
 };
 </script>

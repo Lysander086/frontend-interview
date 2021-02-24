@@ -2,18 +2,26 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Reactive from '../views/Reactive.vue'
+import TestAsync from '../views/TestAsync'
 
 Vue.use(VueRouter)
 
 const routes = [
+
+  {
+    path: '/TestAsync',
+
+    name: 'TestAsync',
+    component: TestAsync
+  },
   {
     path: '/reactive',
-    alias: '/',
     name: 'reactive',
     component: Reactive
   },
   {
     path: '/Home',
+    alias: '/',
     name: 'Home',
     component: Home
   },

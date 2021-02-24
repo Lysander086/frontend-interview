@@ -7,12 +7,12 @@
 </template>
 
 <script>
-import app, { eb } from "@/util/app";
+import appMixin, { eventBus } from "@/util";
 
 export default {
   inheritAttrs: false, // 可以关闭自动挂载到组件根元素上的没有在props声明的属性
 
-  mixins: [app],
+  mixins: [appMixin],
   name: "HelloWorld",
   components: {
     inHello: () => import("./inHello"),
@@ -40,17 +40,20 @@ export default {
   beforeMount() {
     // console.log(      this.$options.name," - beforeMount"    );
   },
+  created() {
+
+  },
   mounted() {
     // console.log(this.$options.name, " - mounted");
     // console.log(this.$options.name,' - supplies:  ',this.supplies)
-    eb.$on("event", (res) => {
+    eventBus.$on("event", (res) => {
       // console.log('event get:', res)
     });
 
     // console.log(this.$attrs)
   },
   beforeDestroy() {
-    eb.$off("event", (res) => {
+    eventBus.$off("event", (res) => {
       // console.log("event off:", res);
     });
   },

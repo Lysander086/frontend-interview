@@ -5,7 +5,9 @@ import store from './store';
 
 Vue.config.productionTip = false;
 
-new Vue({
+// Vue.prototype.$store = store;
+
+const vContext =  new Vue({
   router,
   store,
   // via createElement(), make App a virtual dom, calling update would make it a real dom.
