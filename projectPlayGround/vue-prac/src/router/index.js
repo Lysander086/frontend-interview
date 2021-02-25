@@ -7,7 +7,12 @@ import TestAsync from '../views/TestAsync';
 Vue.use(VueRouter);
 
 const routes = [
-
+  {
+    alias: '/',
+    path: '/TestStorage',
+    name: 'TestStorage',
+    component: () => import('@/views/TestStorage')
+  },
   {
     path: '/TestVuex',
     name: 'TestVuex',
@@ -26,7 +31,6 @@ const routes = [
   },
   {
     path: '/Home',
-    alias: '/',
     name: 'Home',
     component: Home
   },

@@ -1,3 +1,5 @@
+
+// applyMixin 本体
 export default function (Vue) {
   const version = Number(Vue.version.split('.')[0])
 

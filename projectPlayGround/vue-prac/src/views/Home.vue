@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png"/>
+    <img alt="Vue logo" src="../assets/logo.png" />
     <HelloWorld
       @hook:created="'childCreated'"
       :name="name"
@@ -20,6 +20,9 @@ import HelloWorld from '@/components/HelloWorld.vue';
 import appMixin, { eventBus } from '@/util';
 
 export default {
+  render(h) {
+    return h('div', 'anyHere');
+  },
   mixins: [appMixin],
   name: 'Home',
   provide: {
@@ -45,9 +48,11 @@ export default {
     // console.log("home.vue - beforeMount");
   },
   async mounted() {
-    let res = await this.delayedPromise()
-    console.log(res);
-
+    this.justPromise()
+      .then(res => this.justPromise('2nd'))
+      .then(res => {
+        console.log(res);
+      });
   }
 };
 </script>

@@ -1,20 +1,18 @@
-import Vue from 'vue';
+import Vue from 'vue'
 
 const appMixin = {
   methods: {
-    delayedPromise() {
-      // setTimeout(() => {
-        return Promise.resolve('res');
-      // });
+    justPromise (any = 'res') {
+      return Promise.resolve(any)
     }
   },
-  beforeMount() {
+  beforeMount () {
     // console.log("app mixins " + this.$options.name + "- beforeMount");
   },
-  mounted() {
+  mounted () {
     // console.log('app mixin: ',this.$options.name, " - mounted");
   }
-};
+}
 
-export default appMixin;
-export const eventBus = new Vue();
+export default appMixin
+export const eventBus = new Vue()
