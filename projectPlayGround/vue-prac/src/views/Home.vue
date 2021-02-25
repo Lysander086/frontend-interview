@@ -44,16 +44,9 @@ export default {
   beforeMount() {
     // console.log("home.vue - beforeMount");
   },
-  mounted() {
-    let timer = setTimeout(()=>{
-      console.log('first call');
-      timer = null;
-    },500)
-
-    setTimeout(()=>{
-      console.log(timer);
-    },800)
-
+  async mounted() {
+    let res = await this.delayedPromise()
+    console.log(res);
 
   }
 };
