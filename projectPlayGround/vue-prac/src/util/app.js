@@ -1,6 +1,22 @@
 import Vue from 'vue'
 
 const app = {
+  methods:{
+    mockRequest (toReject = false, mockRes) {
+      return new Promise((resolve, reject) => {
+        if (toReject){
+          setTimeout(()=>{
+            reject(mockRes)
+          },50)
+        }else {
+          setTimeout(()=>{
+            resolve(mockRes)
+          },50)
+        }
+
+      })
+    }
+  },
   beforeMount() {
    // console.log("app mixins " + this.$options.name + "- beforeMount");
   },
