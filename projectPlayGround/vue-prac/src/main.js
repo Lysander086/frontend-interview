@@ -5,6 +5,15 @@ import store from './store';
 
 Vue.config.productionTip = false;
 
+Vue.prototype.$wechat = {
+  testVar :'1',
+  sayHi() {
+    console.log('hi');
+  }
+};
+
+
+
 // Vue.prototype.$store = store;
 
 const vContext =  new Vue({

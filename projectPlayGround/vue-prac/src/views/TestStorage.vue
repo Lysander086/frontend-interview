@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <h1>{{testStorageVal}}</h1>
-  </div>
+  <div></div>
 </template>
 
 <script>
@@ -9,16 +7,11 @@ import { get_localStorage, set_localStorage } from '@/util/storage';
 
 export default {
   computed: {
-    testStorageVal() {
-      return get_localStorage('test');
-    }
+    testStorageVal() {}
   },
   mounted() {
-    // console.log(this.testStorageVal);
-    set_localStorage('test', 'testVar');
-    setTimeout(() => {
-      set_localStorage('test', '3');
-    }, 2000);
+    sessionStorage.setItem('test', 1);
+    this.anyMethod();
   },
   data() {
     return {};
@@ -26,8 +19,12 @@ export default {
   components: {
     // ComName: () => import( "./views/ExperienceDetails")
   },
-  methods: {}
+  methods: {
+    anyMethod(variable = sessionStorage['test']) {
+      console.log(variable);
+    }
+  }
 };
 </script>
 
-<style lang='scss' scoped></style>
+<style lang="scss" scoped></style>

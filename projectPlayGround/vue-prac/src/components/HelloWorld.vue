@@ -2,7 +2,7 @@
   <div class="hello-main">
     <h1>hello world</h1>
     <h2>{{ some }}</h2>
-    <in-hello v-bind="$attrs"></in-hello>
+<!--    <in-hello v-bind="$attrs"></in-hello>-->
   </div>
 </template>
 
@@ -35,7 +35,16 @@ export default {
     };
   },
   props: {
-    msg: String,
+    msg: '',
+    selectorValue:  '',
+    selectorType: '',
+    selectorId: '',
+    selectorData:  {
+      type: Array,
+      default() {
+        return []
+      }
+    }
   },
   beforeMount() {
     // console.log(      this.$options.name," - beforeMount"    );
@@ -44,13 +53,7 @@ export default {
 
   },
   mounted() {
-    // console.log(this.$options.name, " - mounted");
-    // console.log(this.$options.name,' - supplies:  ',this.supplies)
-    eventBus.$on("event", (res) => {
-      // console.log('event get:', res)
-    });
-
-    // console.log(this.$attrs)
+    // console.log(this.selectorValue, this.selectorData);
   },
   beforeDestroy() {
     eventBus.$off("event", (res) => {
