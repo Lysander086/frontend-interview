@@ -1,27 +1,21 @@
 <template>
   <div>
-    <base-input
-      :value="value"
-      @input="onInput"
-      @focus="onFocus"
-    ></base-input>
+    <text-document :title.sync="title" @update="onUpdate"> </text-document>
   </div>
 </template>
 
 <script>
 export default {
   mounted() {
-    setTimeout(()=>{
-      console.log(this.value);
-    }, 2000)
+    setTimeout(() => {}, 2000);
   },
   data() {
     return {
-      value: 'parent value'
+      title: 'parent value'
     };
   },
   components: {
-    BaseInput: () => import('./Child')
+    TextDocument: () => import('./Child')
   },
   methods: {
     onFocus(event) {
@@ -29,6 +23,9 @@ export default {
     },
     onInput(event) {
       // console.log(event);
+    },
+    onUpdate() {
+      console.log(this.title);
     }
   }
 };

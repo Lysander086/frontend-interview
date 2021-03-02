@@ -7,9 +7,7 @@
 <script>
 // @ is an alias to /src
 import localForage from 'localforage';
-import app from '@/util/app';
 export default {
-  mixins: [app],
   data() {
     return {
       test: 'h1',
