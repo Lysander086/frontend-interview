@@ -6,23 +6,39 @@
 
 <script>
 // @ is an alias to /src
+import localForage from 'localforage';
+import app from '@/util/app';
 export default {
-  mounted () {
-    sessionStorage.setItem('test', 1)
-    console.log(sessionStorage['test'] === 1);
-  },
-  methods: {
-    buttonClick(){
-      console.log('hi');
-    }
-  },
+  mixins: [app],
   data() {
     return {
       test: 'h1',
     };
   },
+
+  async beforeRouteLeave(to, from, next) {
+    // console.log(to,from);
+    next(false);
+  },
+
+  beforeMount() {
+    sessionStorage.setItem('test', '');
+  },
+  async mounted() {
+    await this.mockRequest(false, 'here').then(res=>{
+      console.log(res);
+    });
+    console.log('after?');
+  },
+  methods: {
+    buttonClick() {
+      console.log('hi');
+    },
+  },
 };
 </script>
+
+
 <style lang="scss" scoped>
 .button {
   width: 100px;

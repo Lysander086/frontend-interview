@@ -39,12 +39,12 @@ const routes = [
   {
     path: '/reactive',
     name: 'reactive',
-    component: Reactive
+    component: Reactive,
   },
   {
     path: '/Home',
     name: 'Home',
-    component: Home
+    component: Home,
   },
   {
     path: '/about',

@@ -2,17 +2,22 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>清除浮动</title>
+    <title>05-2 弹性盒子</title>
 
     <style>
       .container {
         width: 300px;
         border: 1px solid #000;
         background-color: gray;
+        
+        display: flex;
+        /*justify-content: center;*/
+        /*align-items: center;*/
+        justify-content: space-between;
       }
       
       /* 清除浮动 */
-      .clearfix:after{
+      .clearfix{
         display: table;
         clear: both;
         content: '';
@@ -22,18 +27,18 @@
         width: 100px;
         height: 100px;
         background-color: red;
-        float: left;
+        /*float: left;*/
       }
       .right {
         width: 100px;
         height: 100px;
         background-color: blue;
-        float: right;
+        /*float: right;*/
       }
     </style>
   </head>
   <body>
-    <div class="container clearfix">
+    <div class="container ">
       <div class="left"></div>
       <div class="right"></div>
     </div>
